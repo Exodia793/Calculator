@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #1e1e2e;
+  background: whitesmoke;
   font-family: Arial, sans-serif;
 }
 
@@ -19,42 +19,38 @@ body {
 }
 
 .header h1 {
-  color: #ffffff;
+  color: #252525;
   font-size: 1.5rem;
   margin-bottom: 8px;
 }
 
-.last-key {
-  color: #a6adc8;
-  font-size: 0.9rem;
-  margin-bottom: 12px;
-}
-
 .calculator {
-  background: #313244;
+  background: #89898f;
   padding: 16px;
   border-radius: 16px;
 }
 
 .display {
-  background: #181825;
+  background: #202020;
   border-radius: 8px;
   padding: 12px;
   margin-bottom: 16px;
   text-align: right;
   min-height: 80px;
+  overflow: hidden;
 }
 
-.expression {
-  color: #a6adc8;
+.rumus {
+  color: #c6c6c9;
   font-size: 1.2rem;
   word-break: break-all;
 }
 
-.result {
+.hasil {
   color: #ffffff;
   font-size: 2rem;
   font-weight: bold;
+  word-break: break-all;
 }
 
 .keypad {
@@ -68,18 +64,17 @@ body {
   font-size: 1.2rem;
   border: none;
   border-radius: 8px;
-  background: #45475a;
+  background: #575757;
   color: #ffffff;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #585b70;
+  background: #707070;
 }
 
-/* tombol "=" (terakhir) dibuat lebar 2 kolom */
 .btn:last-child {
   grid-column: span 2;
-  background: #89b4fa;
-  color: #1e1e2e;
+  background: #ff9500;
+  color: #ffffff;
 }
