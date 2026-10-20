@@ -18,7 +18,7 @@ function Calculator() {
             try {
                 setHasil(String(eval(rumus)))
             } catch {
-                setHasil("Eror")
+                setHasil("Error")
             }
         } else {
             setRumus(rumus + value)

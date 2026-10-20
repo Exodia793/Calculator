@@ -1,4 +1,4 @@
-function Button({label, onPress}) {
+function Button([label, onPress]) {
   return (
     <button className="btn" onClick={() => onPress(label)}>
         {label}
